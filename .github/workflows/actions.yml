@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Simple JavaScript Action
         id: greet
-        uses: actions/hello-world-javascript-action-action@v1
+        uses: actions/hello-world-javascript-action@v1
         with:
           who-to-greet: Nhialee Yang
       - name: Log Greeting Time
