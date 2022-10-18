@@ -12,3 +12,18 @@ jobs:
         run: |
           node -v
           npm -v
+
+name: other shell commands v2
+
+on: [push]
+
+jobs:
+  run-new-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a new string
+        run: echo "hello new new world for Nhialee Yang"
+      - name: another multiline script
+        run: |
+          node -v
+          npm -v
