@@ -11,9 +11,9 @@ jobs:
           pwd
           ls
       - name: Simple JavaScript Action
-        id: greet
+        id: hello
         uses: actions/hello-world-javascript-action@v1
         with:
           who-to-greet: Nhialee Yang
       - name: Log Greeting Time
-        run: echo "${{ steps.greet.outputs.time }}"
+        run: echo "${{ steps.hello.outputs.time }}"
