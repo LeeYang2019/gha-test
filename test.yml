@@ -1,0 +1,7 @@
+name: John
+address: 705 - 30 West Charles
+active: true
+key:
+  key: value
+  key2: 333
+jsonObject: { key: value, key2: 333 }
