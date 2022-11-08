@@ -1,11 +1,6 @@
 name: Actions Workflow
 
-on:
-  schedule:
-    - cron: ''
-  #push:
-  pull_request:
-    types: [closed, assigned, opened, reopened]
+on: [push]
 
 jobs:
   run actions-command:
