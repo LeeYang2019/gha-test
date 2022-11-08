@@ -3,7 +3,7 @@ name: Actions Workflow
 on: [push]
 
 jobs:
-  run actions-command:
+  run-actions-command:
     runs-on: ubuntu-latest
     steps:
       - name: List Files
